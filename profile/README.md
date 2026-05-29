@@ -12,9 +12,9 @@ Esta organización aloja los repositorios correspondientes a cada fase del estud
 
 | Repositorio | Descripción |
 |---|---|
-| [`Fase dos - Evaluación inicial`](https://github.com/Web-Application-Firewall/Stage2-WAF-Evaluation) | Selección de endpoints de DVWA, Scripts de evaluación GoTestWAF, configuraciones base y resultados comparativos |
-| [`Fase tres - Optimización de reglas`](https://github.com/Web-Application-Firewall/Stage3-WAF-Evaluation) | Modelo de regresión logística con regularización Lasso, vectores de reglas CRS, configuraciones optimizadas y resultados de detección y recursos |
-| [`Fase cuatro - Simulación de entorno`](https://github.com/Web-Application-Firewall/Stage4-WAF-Evaluation) | Locustfile, escenarios de carga, scripts de monitoreo y resultados por escenario |
+| [`Fase dos - Evaluación inicial`](https://github.com/Web-Application-Firewall/Stage2-WAF-Evaluation) | Selección de endpoints de DVWA, Scripts de evaluación GoTestWAF, configuraciones base y resultados comparativos. |
+| [`Fase tres - Optimización de reglas`](https://github.com/Web-Application-Firewall/Stage3-WAF-Evaluation) | Modelo de regresión logística con regularización Lasso, vectores de reglas CRS, configuraciones optimizadas y resultados de detección y recursos. |
+| [`Fase cuatro - Simulación de entorno`](https://github.com/Web-Application-Firewall/Stage4-WAF-Evaluation) | Locustfile, escenarios de carga, scripts de monitoreo y resultados por escenario. |
 
 ---
 
@@ -23,18 +23,18 @@ Esta organización aloja los repositorios correspondientes a cada fase del estud
 ### Evaluación de WAFs
 | Herramienta | Versión | Propósito |
 |---|---|---|
-| [GoTestWAF](https://github.com/wallarm/gotestwaf) | Latest | Evaluación comparativa de WAFs mediante payloads de evasión |
-| [WafBench](https://github.com/microsoft/wafbench) | Latest | Evaluación inicial basada en reglas CRS/ModSecurity |
-| [DVWA](https://github.com/digininja/DVWA) | Latest | Aplicación web vulnerable usada como objetivo de pruebas |
+| [GoTestWAF](https://github.com/wallarm/gotestwaf) | Latest | Evaluación comparativa de WAFs mediante payloads de evasión. |
+| [WafBench](https://github.com/microsoft/wafbench) | Latest | Evaluación inicial basada en reglas CRS/ModSecurity. |
+| [DVWA](https://github.com/digininja/DVWA) | Latest | Aplicación web vulnerable usada como objetivo de pruebas. |
 
 ### WAFs evaluados
 | WAF | Versión | Motor |
 |---|---|---|
-| [Coraza](https://coraza.io) | Latest | ModSecurity / SecLang |
+| [Coraza](https://coraza.io) | Latest | ModSecurity / SecLang + CRS |
 | [BunkerWeb](https://www.bunkerweb.io) | Latest | NGINX + CRS |
-| [SafeLine](https://waf.chaitin.com) | Latest | Detección propia |
+| [SafeLine](https://waf.chaitin.com) | Latest | Motor semántico propio patentado|
 | [CrowdSec](https://www.crowdsec.net) | Latest | Coraza + CRS |
-| [UusecWAF](https://uusec.com) | Latest | Propio |
+| [UusecWAF](https://uusec.com) | Latest | Motor semántico propio (SQLi, XSS, RCE, LFI)|
 
 ### Modelo y entrenamiento
 | Herramienta | Propósito |
