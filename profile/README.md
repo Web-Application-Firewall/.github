@@ -12,9 +12,9 @@ Esta organización aloja los repositorios correspondientes a cada fase del estud
 
 | Repositorio | Descripción |
 |---|---|
-| [`ANEXO A - Fase dos - Evaluación inicial`](https://github.com/Web-Application-Firewall/Stage2-WAF-Evaluation) | Selección de endpoints de DVWA, Scripts de evaluación GoTestWAF, configuraciones base y resultados comparativos. |
-| [`ANEXO B - Fase tres - Optimización de reglas`](https://github.com/Web-Application-Firewall/Stage3-WAF-Evaluation) | Modelo de regresión logística con regularización Lasso, vectores de reglas CRS, configuraciones optimizadas y resultados de detección y recursos. |
-| [`ANEXO C - Fase cuatro - Simulación de entorno`](https://github.com/Web-Application-Firewall/Stage4-WAF-Evaluation) | Locustfile, escenarios de carga, scripts de monitoreo y resultados por escenario. |
+| [`ANEXO A: Fase dos - Evaluación inicial`](https://github.com/Web-Application-Firewall/Stage2-WAF-Evaluation) | Selección de endpoints de DVWA, Scripts de evaluación GoTestWAF, configuraciones base y resultados comparativos. |
+| [`ANEXO B: Fase tres - Optimización de reglas`](https://github.com/Web-Application-Firewall/Stage3-WAF-Evaluation) | Modelo de regresión logística con regularización Lasso, vectores de reglas CRS, configuraciones optimizadas y resultados de detección y recursos. |
+| [`ANEXO C: Fase cuatro - Simulación de entorno`](https://github.com/Web-Application-Firewall/Stage4-WAF-Evaluation) | Locustfile, escenarios de carga, scripts de monitoreo y resultados por escenario. |
 
 ---
 
